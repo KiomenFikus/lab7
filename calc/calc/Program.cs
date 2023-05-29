@@ -11,6 +11,7 @@ namespace calc
         {
             double x, y;
             char z;
+            Console.WriteLine("Привет!");
             Console.WriteLine("Введите первую переменную: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите действие: +, -, *, /");
