@@ -13,11 +13,13 @@ namespace calc
             char z;
             Console.WriteLine("Привет!");
             Console.WriteLine("Введите первую переменную: ");
-            a = Convert.ToDouble(Console.ReadLine());
+            x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите действие: +, -, *, /");
             z = Convert.ToChar(Console.ReadLine());
             Console.WriteLine("Введите вторую переменную");
-            b = Convert.ToDouble(Console.ReadLine());
+            y = Convert.ToDouble(Console.ReadLine());
+            
+
             switch (z)
             {
                 case '+':
@@ -36,7 +38,9 @@ namespace calc
                     Console.WriteLine("Отмена");
                     break;
             }
+            Console.WriteLine("Завершить работу программу (Y / N)");
             Console.ReadLine();
+           
         }
     }
 }
